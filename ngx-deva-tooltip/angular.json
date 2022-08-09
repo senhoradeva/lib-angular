@@ -3,5 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ngx-deva-tooltip": {
+      "projectType": "library",
+      "root": "projects/ngx-deva-tooltip",
+      "sourceRoot": "projects/ngx-deva-tooltip/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-deva-tooltip/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-deva-tooltip/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-deva-tooltip/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-deva-tooltip/src/test.ts",
+            "tsConfig": "projects/ngx-deva-tooltip/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-deva-tooltip/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngx-deva-tooltip"
 }
