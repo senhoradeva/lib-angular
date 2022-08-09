@@ -1,6 +1,6 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { NgxDevaTooltipComponent } from './ngx-deva-tooltip.component';
-
 
 
 @NgModule({
@@ -8,6 +8,7 @@ import { NgxDevaTooltipComponent } from './ngx-deva-tooltip.component';
     NgxDevaTooltipComponent
   ],
   imports: [
+    CommonModule
   ],
   exports: [
     NgxDevaTooltipComponent
