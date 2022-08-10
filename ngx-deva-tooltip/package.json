@@ -1,6 +1,20 @@
 {
   "name": "ngx-deva-tooltip",
   "version": "0.0.0",
+  "author": "Senhora Deva",
+  "license": "MIT",
+  "repository": {
+   "type": "git",
+   "url": "https://github.com/senhoradeva/lib-angular.git"
+  },
+  "keywords": [
+    "Angular",
+    "Component",
+    "Library",
+    "Tooltip",
+    "JavaScript"
+
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -1,11 +1,15 @@
-
 <main class="container">
-  <lib-ngx-deva-tooltip
-  [right]="true"
-  description="teste da Senhora Deva"
-  bgColorTooltip="orange"
-  colorTolltip="purple"
+  <ngx-deva-tooltip
+    [right]="true"
+    description="teste da Senhora Deva"
+    bgColorTooltip="orange"
+    colorTooltip="purple"
+    [tabIndex]="0"
   >
-  <input type="button" value="Hover Me">
-  </lib-ngx-deva-tooltip>
+    <input type="button" value="Hover Me" />
+  </ngx-deva-tooltip>
+
+  <!-- <ngx-deva-tooltip>
+    <input type="button" value="Hover Me" />
+  </ngx-deva-tooltip> -->
 </main>

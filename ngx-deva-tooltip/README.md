@@ -1,27 +1,47 @@
-# NgxDevaTooltip
+![snhora](https://user-images.githubusercontent.com/104692440/183762133-540ba2fc-fcdb-4c76-8c23-9c395e4341e3.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+# NGX-DEVA-TOOLTIP
+![npm](https://img.shields.io/npm/v/react-collapse-details)
+![NPM](https://img.shields.io/npm/l/react-collapse-details)
 
-## Development server
+<div style="display: inline_block">
+    <img align="center" alt="js" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" /> 
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## How to install
 
-## Code scaffolding
+Below are ways to install the library using npm:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+npm i ngx-deva-tooltip
 
-## Build
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## How to use  properties component
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```jsx
+ <ngx-deva-tooltip
+    [top]="true"
+    description="I am Senhora Deva"
+    bgColorTooltip="orange"
+    colorTolltip="purple"
+  >
+    <input type="button" value="Hover Me" />
+  </ngx-deva-tooltip>
+```
 
-## Running end-to-end tests
+## Properties
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+| Props               | type     |  Description                                   |
+| ------------------- | -------  | ---------------------------------              |
+| top                 | boolean  |  Top direction                                 |
+| left                | boolean  |  Left direction                                |
+| bottom              | boolean  |  Right direction                               |
+| right               | boolean  |  Background color of summary                   |
+| description         | string   |  Element description                           |
+| bgColorTooltip      | string   |  Background color of tooltip                   |
+| colorTooltip        | string   |  Color of tooltip                              |
+| tabIndex            | number   |  Element that can receive input focus          |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
