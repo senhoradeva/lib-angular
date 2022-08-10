@@ -1,15 +1,54 @@
 <main class="container">
-  <ngx-deva-tooltip
-    [right]="true"
-    description="teste da Senhora Deva"
-    bgColorTooltip="orange"
-    colorTooltip="purple"
-    [tabIndex]="0"
-  >
-    <input type="button" value="Hover Me" />
-  </ngx-deva-tooltip>
+  <div  class="item1">
+    <h1>Top</h1>
+    <ngx-deva-tooltip
+      [top]="true"
+      description="Top direction"
+      bgColorTooltip="#ffa500"
+      colorTooltip="#800080"
+      [tabIndex]="0"
+    >
+      <input type="button" value="Hover Me" />
+    </ngx-deva-tooltip>
 
-  <!-- <ngx-deva-tooltip>
-    <input type="button" value="Hover Me" />
-  </ngx-deva-tooltip> -->
+  </div>
+  <div  class="item1">
+    <h1>Bottom</h1>
+    <ngx-deva-tooltip
+      [bottom]="true"
+      description="Bottom direction"
+      bgColorTooltip="#800080"
+      colorTooltip="#ff6347"
+      [tabIndex]="1"
+    >
+      <input type="button" value="Hover Me" />
+    </ngx-deva-tooltip>
+
+  </div>
+  <div  class="item1">
+    <h1>Left</h1>
+    <ngx-deva-tooltip
+      [left]="true"
+      description="Left direction"
+      bgColorTooltip="#ffff00"
+      colorTooltip="#000"
+      [tabIndex]="2"
+    >
+      <input type="button" value="Hover Me" />
+    </ngx-deva-tooltip>
+
+  </div>
+  <div  class="item1">
+    <h1>Right</h1>
+    <ngx-deva-tooltip
+      [right]="true"
+      description="Right direction"
+      bgColorTooltip="#588954"
+      colorTooltip="#fff"
+      [tabIndex]="3"
+    >
+      <input type="button" value="Hover Me" />
+    </ngx-deva-tooltip>
+
+  </div>
 </main>

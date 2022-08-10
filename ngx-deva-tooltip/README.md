@@ -28,14 +28,15 @@ First import the module from the lib in the module you want to use it
 ```
 
 ```jsx
- <ngx-deva-tooltip
-    [top]="true"
-    description="I am Senhora Deva"
-    bgColorTooltip="orange"
-    colorTolltip="purple"
-  >
-    <input type="button" value="Hover Me" />
-  </ngx-deva-tooltip>
+<ngx-deva-tooltip
+      [top]="true"
+      description="Top direction"
+      bgColorTooltip="#ffa500"
+      colorTooltip="#800080"
+      [tabIndex]="0"
+    >
+      <input type="button" value="Hover Me" />
+    </ngx-deva-tooltip>
 ```
 
 ## Properties
