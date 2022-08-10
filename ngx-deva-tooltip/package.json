@@ -7,6 +7,9 @@
    "type": "git",
    "url": "https://github.com/senhoradeva/lib-angular.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "Angular",
     "Component",
