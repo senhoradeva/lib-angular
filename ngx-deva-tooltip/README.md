@@ -17,7 +17,6 @@ npm i ngx-deva-tooltip
 
 ```
 
-
 ## How to use  properties component
 First import the module from the lib in the module you want to use it 
 ```Jsx
