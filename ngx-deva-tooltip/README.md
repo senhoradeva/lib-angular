@@ -52,8 +52,8 @@ First import the module from the lib in the module you want to use it
 | ------------------- | -------  | ---------------------------------              |
 | top                 | boolean  |  Top direction                                 |
 | left                | boolean  |  Left direction                                |
-| bottom              | boolean  |  Right direction                               |
-| right               | boolean  |  Background color of summary                   |
+| bottom              | boolean  |  Bottom direction                               |
+| right               | boolean  |  Right direction                   |
 | description         | string   |  Element description                           |
 | bgColorTooltip      | string   |  Background color of tooltip                   |
 | colorTooltip        | string   |  Color of tooltip                              |
